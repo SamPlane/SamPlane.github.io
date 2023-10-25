@@ -44,8 +44,6 @@
 						</ul>
 						<ul class="icons">
 							<li><a href="https://www.linkedin.com/in/samuel-plane-85b934175/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<!-- <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li> -->
-							<!-- <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li> -->
 							<li><a href="https://github.com/SamPlane" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 						</ul>
 					</nav>
@@ -56,77 +54,8 @@
 						<!-- Featured Post -->
 							<article class="post featured">
 								<header class="major">
-									<span class="date"> June 2019</span>
-									<h2><a href="#">My A-Level Project</a></h2>
-									<p>My A – Level project is a web application created to help my local scout group
-										 manage their equipment and store room. It allows them to track and book out
-										 equipment as it is used for various events and returned to the storeroom,
-										 and for registering problems with individual items for the quartermaster to fix.
-										 After finishing and submitting the project, I spoke to the group's quartermaster, who
-										 was interested in implementing it. Because of this, I have recently begun working on new features
-										 and using the knowledge I have gained at University to refactor the code.
-										 As the only project shown that has been assessed, it is my largest solo project to date, using HTML, SQL, PHP and Javascript.
-										</p>
-								</header>
-								<a class="image main"><img src="images/ALevelDemo.jpg" alt="" /></a>
-								<!--
-								<ul class="actions special">
-									<li><a href="https://youtu.be/SQv4cWvJ2-Y" class="button large">Demonstration Video</a></li>
-								</ul>
-							-	-->
-							</article>
-
-						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>
-										<span class="date">December 2020</span>
-										<h2>Discord Bot<br />
-										"CitricAmoebot"</h2>
-									</header>
-									<a class="image fit"><img src="images/DiscordBot.jpg" alt="" /></a>
-									<p>“CitricAmoebot” is a discord bot designed to be a fun and helpful
-										 personality, currently used in my discord server. It is capable of greeting new members to the server,
-										  answering simple questions and responding to messages. This was written in python, using
-										   the Discord API, and is hosted on Heroku.</p>
-								</article>
-
-								<!--
-								<article>
-									<header>
-										<span class="date">December 2019</span>
-										<h2><a>ScrapCard</a></h2>
-									</header>
-									<a class="image fit"><img src="images/Scrapcard.jpg" alt="" /></a>
-									<p>Inspired by my brother's passion for card games, I attempted making one of my own in the language I had just learned,
-										 python to further practice my skills in a project larger than anything I had attempted so far in this language.
-										  At time of writing, I have since moved on to the next year of my studies, and have been able to learn more about creating AI,
-										   which I hope to implement into the game soon.</p>
-									
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								-->
-
-								<article>
-									<header>
-										<span class="date">February 2020</span>
-										<h2>My Computer</h2>
-									</header>
-									<a class="image fit"><img src="images/Computer.jpg" alt="" /></a>
-									<p>As a demonstration of my skills with hardware, pictured above is my personal computer.
-										I assembled and set this up myself, and it has gone through various upgrades over time,
-										namely the increasing the RAM, adding storage capacity and a Wi-Fi Card.
-									</p>
-								</article>
-
-								<article>
-									<header>
-										<span class="date">August 2022</span>
-										<h2>GNPS Metadata Tool</h2>
-									</header>
-									<a class="image fit"><img src="images/MetadataTool.jpg" alt="" /></a>
+									<span class="date">August 2022</span>
+									<h2><a href="#">GNPS Metadata Tool</a></h2>
 									<p>During my placement year at the University of York, I created a tool to create .tsv metadata
 										files for datasets to be uploaded to the Chromatography web application GNPS. This was created
 										using Python and Tkinter to create a Graphical User Interface. This tool automatically collects
@@ -140,13 +69,24 @@
 
 										This can be found at the Wolfson Atmospheric Chemistry Laboratories repository at 
 										<a href="https://github.com/wacl-york/GNPS-Metadata-Tool">here</a>
+
 									</p>
-								</article>
+								</header>
+								<a class="image"><img src="images/MetadataTool.jpg" alt="Scientific Tool GUI. The upper left corner contains a
+									 table with various data points entered. The upper left contains textboxes and buttons, allowing users to add 
+									 new fields with an optional default value. The lower left corner contains button to either save the current 
+									 table as a .tsv file or import a config file to set up the table accordingly. The lower right corner contains
+									 the Wolfson Atmospheric Chemisty Laboratories logo" /></a>
+
+							</article>
+
+						<!-- Posts -->
+							<section class="posts">
 
 								<article>
 									<header>
-										<span class="date">August 2023</span>
-										<h2>Conway's Game of Life<br />
+										<span class="date">August 2023 - In Progress</span>
+										<h2>Conway's Game of Life Implementation<br />
 										</h2>
 									</header>
 									<a class="image fit"><img src="" alt="" /></a>
@@ -154,13 +94,41 @@
 										My implementation of Conway's Game of Life, a Zero-Player Game in which the outcome
 										is determined by the initial configuration of the game. More details can be found 
 										<a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">here</a>.
-
+										This is written in C and includes a serial version, which uses High-Performance Computing
+										patterns, which is then parallelised using both OpenMP and MPI in two seperate version.
 									</p>
 								</article>
 
 								<article>
 									<header>
-										<span class="date">August 2023</span>
+										<span class="date">December 2020</span>
+										<h2>Discord Bot<br />
+										"CitricAmoebot"</h2>
+									</header>
+									<a class="image fit"><img src="images/DiscordBot.jpg" alt="Discord channel, with a conversation between users 
+										CitricAmoeba and WonderSlime, and bot CitricAmoebot. CitricAmoeba and WonderSlime ask what game to play, to
+										which CitricAmoebot randomly selects a game and responds" /></a>
+									<p>“CitricAmoebot” is a discord bot designed to be a silly yet helpful
+										 personality, currently used in my discord server. It is capable of greeting new members to the server,
+										  answering simple questions and responding to messages. This was written in python, using
+										   the Discord API, and was previously hosted on Heroku.</p>
+								</article>
+
+								<article>
+									<header>
+										<span class="date">February 2020</span>
+										<h2>My Computer</h2>
+									</header>
+									<a class="image fit"><img src="images/Computer.jpg" alt="A computer reusing a 2000-era DELL case using various modern components." /></a>
+									<p>As a demonstration of my skills with hardware, pictured above is my personal computer.
+										I assembled and set this up myself, and it has gone through various upgrades over time,
+										namely the increasing the RAM, adding storage capacity and a Wi-Fi Card.
+									</p>
+								</article>
+
+								<article>
+									<header>
+										<span class="date">August 2023 - Ongoing</span>
 										<h2>Companion<br/>
 										</h2>
 									</header>
@@ -171,56 +139,7 @@
 
 									</p>
 								</article>
-								<!--
-								<article>
-									<header>
-										<span class="date">April 18, 2017</span>
-										<h2><a href="#">Ante mattis<br />
-										interdum dolor</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 14, 2017</span>
-										<h2><a href="#">Tempus sed<br />
-										nulla imperdiet</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 11, 2017</span>
-										<h2><a href="#">Odio magna<br />
-										sed consectetur</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 7, 2017</span>
-										<h2><a href="#">Augue lorem<br />
-										primis vestibulum</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-							-->
+
 							</section>
 
 						<!-- Footer 
